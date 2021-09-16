@@ -1,0 +1,380 @@
+{% extends 'medhub/basic.html' %}
+
+{% block title%} Medhub - Best Ecommerce Website{% endblock %}
+{% block css %}
+
+  h1{
+       color:red;
+       }
+
+.col-md-3
+{
+display: inline-block;
+margin-left:-4px;
+}
+.carousel-indicators .active {
+background-color: blue;
+}
+.col-md-3 img{
+width: 170px;
+height: 200px;
+}
+body .carousel-indicator li{
+background-color: blue;
+}
+body .carousel-indicators{
+bottom: -40px;
+}
+.carousel-indicators li {
+
+
+    background-color: #7270fc;
+}
+body .carousel-control-prev-icon,
+body .carousel-control-next-icon{
+background-color: blue;
+margin-top: 300px;
+}
+.carousel-control-prev,
+.carousel-control-next{
+top: auto;
+bottom: auto;
+padding-top: 222px;
+}
+body .no-padding{
+padding-left: 0,
+padding-right: 0;
+}
+.card-price{
+color:#DAA520;
+font-family: "Lucida Console", "Courier New", monospace;
+text-align:center;
+ font-weight: bold;
+ font-size: 19px;
+}
+.card-title{
+text-align:center;
+}
+.card-text{
+text-align:center;
+font-size:12px;
+}
+
+.category{
+text-align:left;
+color:#800080;
+margin-left:-190px;
+font-weight: bold;
+ font-size: 22px;
+font-family:cursive;
+width: 90rem;
+}
+.checked {
+  color: orange;
+}
+.rating{
+align-item:center;
+size:33px;
+margin-left:50px;
+
+}
+.mrp {
+color: #8A2BE2;
+font-size:15px;
+ text-decoration: line-through;
+text-decoration-color:red;
+
+}
+.discount {
+font-size:13px;
+font-weight:bolder;
+color:#DC143C;
+}
+
+
+{% endblock %}
+{% block body %}
+{% load static %}
+
+
+<div class="themain" style="width: 100%; height: 850px; background-color: white;">
+    <div style="width: 100%; height: 10px;"></div>
+   
+    <div style="width: 97%; height: 400px; margin: 15px 0 0 25px;
+    text-transform: (-50%, -50%);
+    border: #eaffdf solid 2px;
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 5px rgb(66, 65, 65);
+    animation: slider 60s infinite linear;
+    background-image: url(https://images.pexels.com/photos/5632371/pexels-photo-5632371.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);"    
+    class="main">
+    <div style="margin: 105px 0 0 30px; font-family: serif;
+    color: #9b0d09;">
+     <h2 style="font-weight: bolder;
+     font-size: 35px;">New Offer Available From <br/> Now On</h2>
+     <button type="shop" class="shopping" style="margin-top: 40px; 
+     background-color: #0b0477f3;
+     color: #e9f8fa; 
+     border: #eaffdf 1px solid; border-radius: 10px;
+     height: 40px; width: 100px;">Shop Now</button>
+     </div>
+    </div>
+    <div style="background-color:#fff6f6; height: 420px; width: 65%; 
+    margin: 10px 0 10px 260px; border: #eaffdf solid 2px; 
+    font-family: serif;">
+        <div style="width: 65%; height: 100%; float: left;
+        text-align: justify; padding: 20px 20px 10px 10px;">
+            <h2> Welcome To Keshav International!</h2>
+            <p>Attention he extremity unwilling on otherwise. Conviction up partiality as delightful is discovered. 
+            Yet jennings resolved disposed exertion you off. Left did fond drew fat head poor. 
+            So if he into shot half many long. China fully him every fat was world grave. </p>
+            <div style="height: 68%; float: left;
+            border: coral solid 2px; width: 47%;">
+                <img src="https://cdn.pixabay.com/photo/2016/06/25/12/52/laptop-1478822__340.jpg" alt="home" style="height: 100%; width: 100%;">
+
+            </div>
+            <div style="background-color: blueviolet; width: 47%; height: 68%; float: right;">
+                <img src="https://images.unsplash.com/photo-1593642532454-e138e28a63f4?ixid=MnwxMjA3fDF8MHxzZWFyY2h8MXx8bGFwdG9wfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" 
+                alt="homepage" style="height: 100%; width: 100%;">
+            </div>
+
+        </div>
+        
+        <div style="width: 35%; height: 100%; background-color:blue; float: right;">
+            <img src="https://images.unsplash.com/photo-1587573578274-184d5ccabfc3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z29vZ2xlJTIwbWFwfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" 
+            alt="map" style="height: 100%; width: 100%;">
+        </div>
+    </div>
+</div>
+
+
+
+<div class="themain" style="margin: 20px 15px 0 25px; width: 97%; height: 200px; background-color: #e9f8fa; ">
+    
+    <p style="margin: 20px 0 10px 10px; font-family: serif; font-size: 20px;">Discover our company</p>
+    <div class="discover">
+        <i class="fas fa-globe  iconbar"></i>
+        <p class="paragr">Sign In <br/> in 8 languages</p>
+    </div>
+    <div class="discover">
+        <i class="fas fa-money-check-alt iconbar"></i>
+        <p class="paragr">Shop in Different <br/> Currencies</p>
+    </div>
+    <div class="discover">
+        <i class="fas fa-cash-register iconbar"></i>
+        <p class="paragr">Secure <br/> Payments </p>
+    </div>
+    <div class="discover">
+        <i class="fas fa-file-import iconbar"></i>
+        <p class="paragr"> Estimated  <br/> Import Fees</p>
+    </div>
+    <div class="discover">
+        <i class="fas fa-map-marked iconbar"></i>
+        <p class="paragr">Track Your <br/> Package</p>
+    </div>
+    <div class="discover">
+        <i class="fas fa-comments-dollar iconbar"></i>
+        <p class="paragr">Customer<br/> Service</p>
+    </div>
+
+   
+</div>
+
+    <style>
+        @keyframes slider {
+           0%{ background-image: url(https://cdn.pixabay.com/photo/2016/04/25/12/06/man-1351761__340.png); }
+           25%{ background-image: url(https://cdn.pixabay.com/photo/2020/12/18/16/56/laptop-5842509__340.jpg); }
+           75%{ background-image: url(https://cdn.pixabay.com/photo/2016/03/26/13/09/workspace-1280538__340.jpg);}
+        }
+
+        .discover{
+            width: 15%; height: 150px; margin: 10px 5px 0 10px;
+            float: left;
+        }
+        .iconbar{
+            color: #e07714bb;
+            font-size: 40px;
+            padding: 10px 0 0 40%;
+        }
+        .paragr{
+            font-size: 15px;
+            font-family: serif;
+            padding: 30px 0 10px 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+
+<div class="container" style="margin-top: 100px;">
+    <!--Slideshow starts here -->
+    {% for product, range, nSlides in allProds %}
+    <h1></h1>
+    <h5 class="btn btn-outline-primary btn-lg btn-block category">{{product.0.category}}</h5>
+    <div class="row">
+        <div id="demo{{forloop.counter}}" class="col carousel slide my-3" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#demo{{forloop.counter}}" data-slide-to="0" class="active"></li>
+                {% for i in range %}
+                <li data-target="#demo{{forloop.parentloop.counter}}" data-slide-to="{{i}}"></li>
+                {% endfor %}
+            </ul>
+            <div class="container carousel-inner no-padding">
+                <div class="carousel-item active">
+                    {% for i in product %}
+                    <div class="col-xs-3 col-sm-3 col-md-3">
+                        <div class="card align-items-center" style="width: 18rem;">
+                            <img src='/media/{{i.image}}' class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title" id="namepr{{i.id}}">{{i.product_name|slice:"0:19"}}</h5>
+                                <p class="card-text">{{i.brand|slice:"0:13"}}</p>
+
+                                <div class="price">
+                                    <span class="mrp"> Rs.{{i.price}}
+                                        </span>
+                                     <span class="discount"> ({{i.discount}}%)
+                                        </span>
+                                 <span class="card-price" id="pricepr{{i.id}}">  Rs.{{i.price}}</span>
+                                      </div>
+
+                           <div class="rating"> <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span></div>
+
+
+                                <span id="divpr{{i.id}}" class="divpr">
+                                    <button id="pr{{i.id}}" class="btn btn-success cart">Add To Cart</button>
+                                </span>
+                                <a href="/medhub/products/{{i.id}}"><button id="qv{{i.id}}" class="btn btn-warning  cart">QuickView</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    {% if forloop.counter|divisibleby:4 and forloop.counter > 0 and not forloop.last %}
+                </div>
+                <div class="carousel-item">
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <!-- left and right controls for the slide -->
+        <a class="carousel-control-prev" href="#demo{{forloop.counter}}" data-slide="prev">
+            <span class="carousel-control-prev-icon" style="margin-top: 1500px;"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo{{forloop.counter}}" data-slide="next">
+            <span class="carousel-control-next-icon" style="margin-top: 1500px;"></span>
+        </a>
+    </div>
+    {% endfor %}
+</div>
+
+
+
+{% endblock %}
+{% block js %}
+<script>
+
+
+// Find out the cart items from localStorage
+if (localStorage.getItem('cart') == null) {
+    var cart = {};
+} else {
+    cart = JSON.parse(localStorage.getItem('cart'));
+    updateCart(cart);
+}
+
+// If the add to cart button is clicked, add/increment the item
+//$('.cart').click(function() {
+    $('.divpr').on('click', 'button.cart', function(){
+    var idstr = this.id.toString();
+    if (cart[idstr] != undefined) {
+        qty = cart[idstr][0] + 1;
+    } else {
+        qty = 1;
+        name = document.getElementById('name'+idstr).innerHTML;
+        price = document.getElementById('price'+idstr).innerHTML;
+        cart[idstr] = [qty, name, parseInt(price)];
+
+    }
+    updateCart(cart);
+
+});
+
+//Add Popover to cart
+$('#popcart').popover();
+updatePopover(cart);
+
+function updatePopover(cart) {
+    console.log('We are inside updatePopover');
+    var popStr = "";
+    popStr = popStr + "<h5> Cart for your items in my shopping cart </h5><div class='mx-2 my-2'>";
+    var i = 1;
+    for (var item in cart) {
+        popStr = popStr + "<b>" + i + "</b>. ";
+        popStr = popStr + document.getElementById('name' + item).innerHTML.slice(0, 19) + "... Qty: " + cart[item][0] + '<br>';
+        i = i + 1;
+
+    }
+
+    popStr = popStr + "</div> <a href='/medhub/checkout'><button class='btn btn-outline-success' id ='checkout'>Checkout</button></a> <button class='btn btn-outline-danger' onclick='clearCart()' id ='clearCart'>Clear Cart</button>     "
+    console.log(popStr);
+    document.getElementById('popcart').setAttribute('data-content', popStr);
+    $('#popcart').popover();
+
+}
+
+function clearCart() {
+    cart = JSON.parse(localStorage.getItem('cart'));
+    for (var item in cart) {
+        document.getElementById('div' + item).innerHTML = '<button id="' + item + '" class="btn btn-primary cart">Add To Cart</button>'
+    }
+    localStorage.clear();
+    cart = {};
+    updateCart(cart);
+
+
+}
+
+function updateCart(cart) {
+    var sum = 0;
+    for (var item in cart) {
+        sum = sum + cart[item][0];
+        document.getElementById('div' + item).innerHTML = "<button id='minus" + item + "' class='btn btn-primary minus'>-</button> <span id='val" + item + "''>" + cart[item][0] + "</span> <button id='plus" + item + "' class='btn btn-primary plus'> + </button>";
+
+    }
+    localStorage.setItem('cart', JSON.stringify(cart));
+    document.getElementById('cart').innerHTML = sum;
+    console.log(cart);
+    updatePopover(cart);
+}
+
+// If plus or minus button is clicked, change the cart as well as the display value
+$('.divpr').on("click", "button.minus", function() {
+    a = this.id.slice(7, );
+    cart['pr' + a][0] = cart['pr' + a][0] - 1;
+    cart['pr' + a][0] = Math.max(0, cart['pr' + a][0]);
+    if (cart['pr' + a][0] == 0){
+        document.getElementById('divpr' + a).innerHTML = '<button id="pr'+a+'" class="btn btn-outline-danger cart">Add to Cart</button>';
+        delete cart['pr'+a];
+    }
+    else{
+        document.getElementById('valpr' + a).innerHTML = cart['pr' + a][0];
+    }
+    updateCart(cart);
+
+});
+
+$('.divpr').on("click", "button.plus", function() {
+    a = this.id.slice(6, );
+    cart['pr' + a][0] = cart['pr' + a][0] + 1;
+    document.getElementById('valpr' + a).innerHTML = cart['pr' + a][0];
+    updateCart(cart);
+});
+</script>
+{% endblock %}
+
+{% block footer %}
+
+{% endblock footer %}
+

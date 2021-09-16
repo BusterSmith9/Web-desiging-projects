@@ -1,0 +1,120 @@
+{% extends 'medhub/basic.html' %}
+
+{% block title%} About Us{% endblock %}
+{% block body %}
+
+<main role="main">
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron" style="height: 650px; background-color: #f7f9ff; width: 100%;">
+    <div class="first" style="width: 50%; height: 90%; float: left; 
+    margin-right: 20px; 
+    background-image: url(https://cdn.pixabay.com/photo/2015/01/08/18/24/children-593313__340.jpg);
+    animation: slider 20s infinite linear;
+">  <p style="margin-top: 500px; font-size: 15px; font-family: fantasy;"> We offer you the best quality products.</p>
+    </div>
+    
+    <div class="container" style="width: 45%; float: right; height: 100%; font-family: serif; font-size: 19px; margin-top: -30px;">
+      <h1 class="display-3">MedHub!</h1>
+      <p>My Awesome Cart Pvt Ltd. is an Indian electronic commerce company based in Bengaluru, India. Founded by Sachin Bansal and Binny Bansal in 2007, the company initially focused on book sales, before expanding into other product categories such as consumer electronics, fashion, and lifestyle products.
+          The service competes primarily with Amazon' s Indian subsidiary, and the domestic rival Snapdeal.[5][6] as of March 2017, Flipkart held a 39.5% market share of India's e-commerce industry.[7] Flipkart is significantly dominant in the sale of apparel (a position that was bolstered by its acquisitions of Myntra and Jabong.com), and was described as being "neck and neck" with Amazon in the sale of electronics and mobile phones.[8] Flipkart also owns PhonePe, a mobile payments service based on the Unified Payments Interface (UPI).
+          In August 2018, U.S.-based retail chain Walmart acquired a 77% controlling stake in Flipkart for US$16 billion, valuing it at $22 billion.</p>
+      <p><a class="btn btn-primary btn-lg" href="#" role="button" style="margin-top:25px;">Learn more &raquo;</a></p>
+    </div>
+  </div>
+
+  <div class="second" style="background-color: #f7f9ff; height: 550px; width: 100%; margin-top: -33px; font-family: serif;">
+    <h1 style="text-align: center; padding: 40px 0 10px 0;">Who we are to Serave the nation</h1>
+    <p style="font-size: 17px; text-align: center;">Who are in extremely love with eco friendly system.</p>
+    <div class="roles" style="margin-left: 200px;">
+      <dl class="accordion">
+        <dt>
+        Success
+        </dt>
+        <dd>
+        Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam.
+        </dd>
+        <dt>
+        Info
+        </dt>
+        <dd>
+        Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. leo quam aliquet diam, congue laoreet elit metus eget diam.
+        </dd>
+        <dt>
+        Danger
+        </dt>
+        <dd>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. Proin ac metus diam.
+        </dd>
+        <dt>
+        Warning
+        </dt>
+        <dd>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. Proin ac metus diam.
+        </dd>
+        </dl>
+    </div>
+    <div  class="roles">
+      <img src="https://cdn.pixabay.com/photo/2016/06/25/12/52/laptop-1478822__340.jpg" style="height: 95%; width: 95%;">
+
+    </div>
+  </div>
+
+
+
+  <div class="third" style="background-color: #f7f9ff; width: 100%; margin-top: -20px; font-family: serif;" >
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-4">
+        <h2>Heading</h2>
+        <p class="para">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div>
+      <div class="col-md-4">
+        <h2>Heading</h2>
+        <p class="para">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div>
+      <div class="col-md-4">
+        <h2>Heading</h2>
+        <p class="para">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div>
+    </div>
+
+    <hr>
+
+</main>
+<style>
+
+@keyframes slider {
+           0%{ background-image: url(https://cdn.pixabay.com/photo/2018/01/17/07/06/laptop-3087585__340.jpg); }
+           25%{ background-image: url(https://cdn.pixabay.com/photo/2016/06/28/05/10/laptop-1483974__340.jpg); }
+           75%{ background-image: url(https://cdn.pixabay.com/photo/2016/02/19/11/23/women-1209678__340.jpg);}
+        }
+
+  .accordion{
+    text-align: justify;
+    font-family: serif;
+  }
+  .roles{
+    height: 400px;
+    width: 35%;
+    margin: 20px 0 0 50px;
+    float: left;
+    }
+    .row{
+      padding: 80px 0 0 150px;
+      width: 90%;
+      font-family: serif;
+    }
+    .para{
+      padding: 20px 0 20px 0;
+      text-align: justify;
+    }
+  
+
+</style>
+
+
+{% endblock %}
